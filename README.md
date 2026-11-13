@@ -1,3 +1,15 @@
+# Laravel Project - Part 2
+Proyek pembelajaran Laravel untuk membuat fitur manajemen produk (tambah data dengan modal pop-up, simpan ke database, dan menampilkan data ke tabel).
+
+## Cara Menjalankan Proyek:
+1. Clone repositori ini: `git clone <url-repo>`
+2. Install dependencies: `composer install`
+3. Salin file `.env.example` menjadi `.env`
+4. Generate key: `php artisan key:generate`
+5. Sesuaikan konfigurasi database di file `.env`
+6. Jalankan migrasi: `php artisan migrate`
+7. Jalankan server: `php artisan serve`
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
